@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Name</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Your Name</h1>
+    <p>Your name is: <span id="name"></span></p>
+    <script>
+      var name = localStorage.getItem("name");
+      document.getElementById("name").textContent = name;
+    </script>
+  </body>
+</html>

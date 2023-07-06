@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* add styles for the banner */
+.banner {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .banner h1 {
+    margin: 0;
+  }
+
+/* change the background color of the body element to light gray */
+body {
+    background-color: lightgray;
+  }
+  
+  /* change the font size and color of the h1 element */
+  h1 {
+    font-size: 36px;
+    color: navy;
+  }
+  
+  /* change the font size and color of the p element */
+  p {
+    font-size: 18px;
+    color: darkgray;
+  }
+  
+  /* style the button element */
+  button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* style the button element on hover */
+  button:hover {
+    background-color: darkblue;
+  }
