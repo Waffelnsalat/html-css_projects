@@ -1,0 +1,27 @@
+.image-container {
+    position: relative;
+    display: inline-block; /* Oder block, je nach Bedarf */
+    width: 100%; /* Beispielbreite, passen Sie sie nach Bedarf an */
+    height: auto; /* Beispielhöhe, passen Sie sie nach Bedarf an */
+    overflow: hidden; /* Verhindert, dass der Inhalt über den Container hinausgeht */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Stellt sicher, dass das Bild den Container vollständig füllt */
+    filter: brightness(70%); /* Verdunkelt das Bild */
+}
+
+.image-label {
+    position: absolute;
+    top: 50%; /* Zentriert den Text vertikal */
+    left: 50%; /* Zentriert den Text horizontal */
+    transform: translate(-50%, -50%); /* Verschiebt den Text genau in die Mitte */
+    color: white; /* Weiße Schriftfarbe */
+    font-size: 80px; /* Schriftgröße anpassen */
+    text-align: center; /* Zentriert den Text innerhalb des Elements */
+    padding: 5px 10px; /* Innenabstand */
+    background-color: rgba(0, 0, 0, 0); /* Kein Hintergrund */
+    font-weight: bold;
+}

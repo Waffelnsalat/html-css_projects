@@ -1,0 +1,86 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8; /* Hintergrundfarbe des Headers */
+    z-index: 1000; 
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Zentriert die Inhalte vertikal */
+    justify-content: flex-start; /* Startet die Inhalte am Anfang (links) des Containers */
+    padding: 10px; /* Optionaler Abstand */
+}
+
+.header-logo {
+    /* Optional: Größenanpassungen für das Logo */
+    width: auto; /* Beispiel für eine maximale Breite */
+    max-height: 30px; /* Behält das Seitenverhältnis des Logos bei */
+}
+
+.home-button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff; /* Blaue Hintergrundfarbe */
+    color: white; /* Weiße Textfarbe */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 30px; /* Abstand zum Logo */
+    transition: background-color 0.3s ease; /* Optional: Glatter Farbwechsel beim Hover */
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Dunklere Blaufarbe beim Hover */
+}
+
+.header-button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 80%;
+    transition: background-color 0.3s ease;
+}
+
+.header-button:hover {
+    background-color: #0056b3;
+}
+
+.spacer {
+    flex-grow: 1; /* Nimmt den verfügbaren Platz ein */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px; /* Platz für den Header lassen */
+    background-color: rgb(83, 108, 190);
+
+}
+
+footer {
+    background-color: rgb(83, 108, 190); /* Dunkler Hintergrund, Farbe kann angepasst werden */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
